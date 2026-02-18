@@ -4,7 +4,7 @@
 \newcommand{\zh}[1]{}
 
 \zh{\usepackage{xeCJK}}
-\zh{\setCJKmainfont{SourceHanSansCN-Regular}}
+% \zh{\setCJKmainfont{SourceHanSansCN-Regular}}
 % \zh{\setCJKsansfont{SourceHanSansHWSC-Regular}}
 % \zh{\setCJKmonofont{SourceHanSansHWSC-Regular}}
 
@@ -34,8 +34,8 @@
 
 
 \section{\en{Work Experience}\zh{工作经历}}
-\en{\datedsubsection{\textbf{\href{https://oxmiq.ai/}{Oxmiq Labs}}, Campbell, CA}{06/2025 -- Present}}
-\zh{\datedsubsection{\textbf{\href{https://oxmiq.ai/}{Oxmiq实验室}}}{2025/06 -- 现在}}
+\en{\datedsubsection{\textbf{\href{https://oxmiq.ai/}{Oxmiq Labs}}, Campbell, CA}{06/2025 -- 09/2025}}
+\zh{\datedsubsection{\textbf{\href{https://oxmiq.ai/}{Oxmiq实验室}}}{2025/06 -- 2025/09}}
 \en{\role{Compiler Engineer}{Compiler Engineer Intern}}
 \zh{\role{编译器工程师}{编译器实习生}}
 \begin{itemize}
@@ -67,10 +67,14 @@
       \item \small{ \en{Make universal migration based on WebAssembly and PTX}
       \zh{设计一种基于Wasm和PTX的通用迁移方法。}}\includegraphics[width=\linewidth/50]{mvvm.png}
       \item \small{ \en{Make cross kernel-userspace eBPF observation for distributed system}
-      \zh{设计一种基于用户态内核态eBPF协同工作的分布式系统。}}\includegraphics[width=\linewidth/50]{ebpf.png}
+      \zh{设计一种基于用户态内核态eBPF协同工作的L布式系统。}}\includegraphics[width=\linewidth/50]{ebpf.png}
+      \item \small{ \en{Contributed to vLLM/SGLang for high-throughput serving, implemented custom CUDA CXL kernels for attention mechanisms, optimized KV cache management and continuous batching strategies for improved GPU utilization.} \zh{参与了 vLLM/SGLang 的开发以实现高吞吐量推理服务，实现了基于 CXL 的自定义 CUDA attention 内核，并优化了 KV cache 管理及连续批处理策略以提升整体性能。}}\includegraphics[width=\linewidth/50]{sglang.png}
+
 \end{itemize}
 
 \section{\en{Selected Publications}\zh{主要论文}}
+\href{https://arxiv.org/pdf/2512.12615}{\textbf{"gpu\_ext: Extensible OS Policies for GPUs via eBPF"} Preprint} Yusheng Zheng, Tong Yu, \textbf{Yiwei Yang}, Minghui Jiang, Xiangyu Gao, Jianchang Su, Yanpeng Hu, Wenan Mao, Wei Zhang, Dan Williams, Andi Quinn
+
 \href{https://arxiv.org/pdf/2508.15980}{\textbf{"CXLAimPod: CXL Memory is all you need in AI era"} Preprint} \textbf{Yiwei Yang}, Yiqi Chen, Yusheng Zheng, Liang Zheng, Kexin Chu, Zhe Zhou, Andi Quinn, Wei Zhang
 
 \href{https://arxiv.org/pdf/2506.15993}{\textbf{"HetGPU: The pursuit of making binary compatibility towards GPUs"} Preprint} \textbf{Yiwei Yang}, Yusheng Zheng, Tong Yu, Andi Quinn.
