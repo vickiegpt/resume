@@ -8,6 +8,7 @@
 \RequirePackage{xifthen}
 % use hyperlink for email and url
 \RequirePackage{hyperref}
+\hypersetup{hidelinks}
 \RequirePackage{graphicx}
 \RequirePackage{url}
 \urlstyle{tt}
@@ -29,27 +30,31 @@
 	nohead
 ]{geometry}
 
+% A compact, still-readable one-page resume setting.
+\geometry{left=0.46in,right=0.46in,top=0.40in,bottom=0.40in}
+\AtBeginDocument{\fontsize{9pt}{10.2pt}\selectfont}
+
 \RequirePackage{titlesec}
 \RequirePackage{enumitem}
 % \setlist{noitemsep} % removes spacing from items but leaves space around the whole list
 \setlist{nosep} % removes all vertical spacing within and around the list
-\setlist[itemize]{topsep=0.15em, leftmargin=1.25pc}
-\setlist[enumerate]{topsep=0.15em, leftmargin=1.25pc}
+\setlist[itemize]{topsep=0.08em, leftmargin=1.15pc}
+\setlist[enumerate]{topsep=0.08em, leftmargin=1.15pc}
 \RequirePackage[super]{nth}
 
 \titleformat{\section}         % Customise the \section command 
-  {\Large\scshape\raggedright} % Make the \section headers large (\Large),
+  {\large\scshape\raggedright} % Compact section headers for a one-page resume.
                                % small capitals (\scshape) and left aligned (\raggedright)
   {}{0em}                      % Can be used to give a prefix to all sections, like 'Section ...'
   {}                           % Can be used to insert code before the heading
   [\titlerule]                 % Inserts a horizontal line after the heading
-\titlespacing*{\section}{0cm}{*1.0}{*1.0}
+\titlespacing*{\section}{0cm}{0.50ex}{0.25ex}
 
 \titleformat{\subsection}
-  {\large\raggedright}
+  {\normalsize\raggedright}
   {}{0em}
   {}
-\titlespacing*{\subsection}{0cm}{*1.0}{*0.6}
+\titlespacing*{\subsection}{0cm}{0.28ex}{0.08ex}
 
 \newcommand{\datedsection}[2]{%
   \section[#1]{#1 \hfill #2}%
@@ -62,8 +67,8 @@
 }
 
 \newcommand{\name}[1]{
-  \centerline{\Huge\scshape{#1}}
-  \vspace{1.25ex}
+  \centerline{\LARGE\scshape{#1}}
+  \vspace{0.30ex}
 }
 
 % defines one's name
@@ -101,11 +106,10 @@
     {\href{#2}{#1}}}
 
 \newcommand{\basicInfo}[1]{
-  \centerline{\ttfamily\large{#1}}
-  \vspace{0.25ex}
+  \centerline{\ttfamily\normalsize{#1}}
+  \vspace{0.05ex}
 }
 
 \newcommand{\role}[2]{
-  {\par (#1) ~ #2 \par}
+  {\par\small (#1) ~ #2 \par}
 }
-

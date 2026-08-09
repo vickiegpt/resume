@@ -22,24 +22,32 @@
 \en{\datedsubsection{\textbf{UC Santa Cruz}, Ph.D. Student}{08/2022 -- 06/2028}}
 \zh{\datedsubsection{\textbf{加州大学圣克鲁兹分校}, 在读Ph.D.}{2022/09 -- 2028/06}}
 \begin{itemize}
-      \item \en{Major: Computer Science, advised by \href{https://arquinn.github.io/}{Andi Quinn}. 22 Fall TA of Computer Architecture}
+      \item \en{Computer Science; advised by \href{https://arquinn.github.io/}{Andi Quinn}; Fall 2022 Computer Architecture TA.}
             \zh{计算机科学，导师为\href{https://arquinn.github.io/}{Andi Quinn}，2022秋体系结构助教}
 \end{itemize}
 \en{\datedsubsection{\textbf{ShanghaiTech University}, Undergraduate}{09/2018 -- 06/2022}}
 \zh{\datedsubsection{\textbf{上海科技大学}, 本科}{2018/09 -- 2022/06}}
 \begin{itemize}
-      \item \en{Major: Computer Science, finished Compiler, Network, Database, OS, CA, Convex, RL, Parallel Computing. 21\& 22 Spring TA of Compiler}
+      \item \en{Computer Science; coursework in compilers, networks, databases, OS, architecture, optimization, RL, and parallel computing; Spring 2021--22 Compiler TA.}
             \zh{计算机科学，完成编译原理，操作系统，网络，数据库，并行计算，凸优化，强化学习等课程，2021\&22春编译原理助教}
 \end{itemize}
 
 
 \section{\en{Work Experience}\zh{工作经历}}
+\en{\datedsubsection{\textbf{\href{https://zettai.us/}{Zettai LLC}}, San Jose, CA}{09/2025 -- Present}}
+\zh{\datedsubsection{\textbf{\href{https://zettai.us/}{Zettai有限责任公司}}}{2025/09 -- 现在}}
+\en{\role{Founder}{Founder}}
+\zh{\role{创始人}{创始人}}
+\begin{itemize}
+      \item \en{Founded Zettai LLC, focusing on compiler-driven heterogeneous XPU execution.}
+            \zh{创立zettai有限责任公司，专注于编译器驱动的异构XPU执行。}
+\end{itemize}
 \en{\datedsubsection{\textbf{\href{https://oxmiq.ai/}{Oxmiq Labs}}, Campbell, CA}{06/2025 -- 09/2025}}
 \zh{\datedsubsection{\textbf{\href{https://oxmiq.ai/}{Oxmiq实验室}}}{2025/06 -- 2025/09}}
 \en{\role{Compiler Engineer}{Compiler Engineer Intern}}
 \zh{\role{编译器工程师}{编译器实习生}}
 \begin{itemize}
-      \item \en{Applied HetGPU into Production.}
+      \item \en{Productionized HetGPU for compiler-driven heterogeneous GPU execution.}
             \zh{将HetGPU应用于生产环境。}
 \end{itemize}
 \en{\datedsubsection{\textbf{\href{https://www.jumptrading.com/}{Jump Trading}}, Shanghai, China}{07/2020 -- 09/2020}}
@@ -47,11 +55,11 @@
 \en{\role{Linux Team}{Production Engineer Intern}}
 \zh{\role{Linux 组}{HPC自动化运维实习}}
 \begin{itemize}
-      \item \en{High Frequency Trade Order Book simulation applying Linear.Regression Method.}
+      \item \en{Modeled high-frequency trading order books with linear regression.}
             \zh{应用线性回归法进行高频交易盘账模拟。}
-      \item \en{Designed a user interface to automate the core affinity of jobs.}
+      \item \en{Built a UI to automate job-to-CPU affinity assignment.}
             \zh{在Linux中自动调度作业集成分配cpu核心绑定功能。}
-      \item \en{Designed an eBPF exporter of GPFS full OSS lifetime traces for better reporting the bottleneck.}
+      \item \en{Developed an eBPF exporter for end-to-end GPFS OSS traces and bottleneck reporting.}
             \zh{应用eBPF的gobinding对GPFS进行io侦测以更好报系统瓶颈。}
 \end{itemize}
 \section{\en{Research Experience}\zh{研究经历}}
@@ -61,17 +69,18 @@
 \en{\role{Graduate Research}{Assistant}}
 \zh{\role{研究生科研}{助理}}
 \begin{itemize}
-      \item \small{ \en{Data-driven CXL.mem allocation, prefetching, and replacement policies Operating System. } \zh{设计CXL.mem的性能分析、数据驱动的远端内存分配、预取和替换策略的操作系统。}}\includegraphics[width=\linewidth/50]{cxl.png}
-      \item \small{ \en{Make Hardware Software Co-design for on CXL.cache data movement}
+      \item \small{ \en{Designed data-driven OS policies for CXL.mem allocation, prefetching, and replacement.} \zh{设计CXL.mem的性能分析、数据驱动的远端内存分配、预取和替换策略的操作系统。}}\includegraphics[width=\linewidth/50]{cxl.png}
+      \item \small{ \en{Co-designed hardware and software for CXL.cache data movement.}
       \zh{设计一种硬件软件协同的CXL.cache数据迁移方法。}}\includegraphics[width=\linewidth/50]{cxlmemuring.png}
-      \item \small{ \en{Make universal migration based on WebAssembly and PTX}
+      \item \small{ \en{Built architecture-independent migration using WebAssembly and PTX.}
       \zh{设计一种基于Wasm和PTX的通用迁移方法。}}\includegraphics[width=\linewidth/50]{mvvm.png}
-      \item \small{ \en{Make cross kernel-userspace eBPF observation for distributed system}
+      \item \small{ \en{Built cross-kernel/userspace eBPF observability for distributed systems.}
       \zh{设计一种基于用户态内核态eBPF协同工作的分布式系统。}}\includegraphics[width=\linewidth/50]{ebpf.png}
-      \item \small{ \en{Contributed to vLLM/SGLang for high-throughput serving, implemented custom CUDA CXL kernels for attention mechanisms, optimized KV cache management and continuous batching strategies for improved GPU utilization.} \zh{参与了 vLLM/SGLang 的开发以实现高吞吐量推理服务，实现了基于 CXL 的自定义 CUDA attention 内核，并优化了 KV cache 管理及连续批处理策略以提升整体性能。}}\includegraphics[width=\linewidth/50]{sglang.png}
+      \item \small{ \en{Extended vLLM/SGLang with CUDA/CXL attention kernels; optimized KV caching and continuous batching.} \zh{参与了 vLLM/SGLang 的开发以实现高吞吐量推理服务，实现了基于 CXL 的自定义 CUDA attention 内核，并优化了 KV cache 管理及连续批处理策略以提升整体性能。}}\includegraphics[width=\linewidth/50]{sglang.png}
 \end{itemize}
 
 \section{\en{Selected Publications}\zh{主要论文}}
+\begingroup\small
 \href{https://asplos.dev/pdf/slugarch.pdf}{\textbf{"SlugArch: A Boundary Replay Contract for Heterogeneous CXL Systems "} Preprint} \textbf{Yiwei Yang}, Andi Quinn.
 
 \href{https://arxiv.org/pdf/2604.02442}{\textbf{"WIO: Upload-Enabled Computational Storage on CXL SSDs"} Preprint} \textbf{Yiwei Yang}, Yanpeng Hu, Yusheng Zheng, Estabon Ramos, Jianchang Su, Andi Quinn, Wei Zhang.
@@ -95,24 +104,20 @@
 \href{https://www.usenix.org/system/files/osdi25-zheng-yusheng.pdf}{\textbf{"Extending Applications Safely and Efficiently"} OSDI25} Yusheng Zheng, Tong Yu, \textbf{Yiwei Yang}, Yanpeng Hu, Xiaozheng Lai, Dan Williams, Andi Quinn.
 
 \href{https://arxiv.org/pdf/2312.05531}{\textbf{"Kgent: Kernel Extensions Large Language Model Agent"} eBPF24} Yusheng Zheng, \textbf{Yiwei Yang}, Maolin Chen, Andi Quinn.
+\endgroup
 
 \section{\en{Skills}\zh{技能}}
 \begin{itemize}[parsep=0.25ex]
-      \item \en{\textbf{Programming Languages}:
-                  not limited to any specific language,
-                  and experienced in Verilog/C++/Rust,
-                  comfortable with Golang/C/Java/TypeScript (in random order).}
+      \item \en{\textbf{Languages}: Verilog, C++, Rust; working knowledge of Go, C, Java, and TypeScript.}
             \zh{\textbf{编程语言}:
                   不局限于特定编程语言，且尤其熟悉 Verilog/C++/Rust 等，
                   了解 Golang/C/Java/TypeScript 等。}
 
-      \item \en{\textbf{System}:
-                  Specialist in Compiler \& Performance Analysis, familiar with \texttt{LLVM}, \texttt{MLIR}, \texttt{Gem5}, \texttt{WASM}, \texttt{gdb}, \texttt{eBPF}, \texttt{ptx}, \texttt{qemu}, \texttt{chisel}, \texttt{Linux mm \& observability subsystem}.}
+      \item \en{\textbf{Systems}: Compilers and performance analysis; \texttt{LLVM}, \texttt{MLIR}, \texttt{gem5}, \texttt{WASM}, \texttt{gdb}, \texttt{eBPF}, \texttt{PTX}, \texttt{QEMU}, \texttt{Chisel}, Linux memory management and observability.}
             \zh{\textbf{系统}:
                   熟悉各种CPU，编译器及操作系统内核的概念与设计，熟悉各种内核性能调优工具，例如\texttt{LLVM}, \texttt{MLIR}, \texttt{Gem5}, \texttt{WASM}, \texttt{gdb}, \texttt{eBPF}, \texttt{ptx}, \texttt{qemu}, \texttt{chisel}, \texttt{Linux mm \& observability 子系统}。}
 
-      \item \en{\textbf{Machine Learning}:
-                  familiar with general knowledge of machine \& reinforce learning, interested of System for LLM for Sys.}
+      \item \en{\textbf{Machine Learning}: ML and reinforcement learning; systems for LLMs and LLMs for systems.}
             \zh{\textbf{机器学习}:
                   熟悉经典机器与强化学习算法，对System for LLM for System有兴趣。}
 \end{itemize}
@@ -121,8 +126,8 @@
 \begin{itemize}
       \item \en{Interests: HPC, Architecture, Security, JIT, CXL, LLM4Sys4LLM, etc.}
             \zh{兴趣：高性能计算、体系结构、安全、JIT、CXL、LLM4Sys4LLM等。}
-      \item \en{Lead \href{https://hpc.geekpie.club}{GeekPie\_HPC} \textit{Ranked 2}, SC-SCC21. \textit{Ranked 4}, ISC22. Advise Not-Slow-Slug \textit{Ranked 2}, ISC23.} \zh{带领\href{https://hpc.geekpie.club}{GeekPie\_HPC} SCC21 团队第2名，ISC22 团队第4名，指导 Not-Slow-Slug 团队 ISC23 团队第2名。}
-      \item \en{Advise Kiki Zhang, Zhen Cao to be Ph.D. students.}\zh{指导 Kiki Zhang, Zhen Cao 成为博士生。}
+      \item \en{Led \href{https://hpc.geekpie.club}{GeekPie\_HPC} to 2nd at SC-SCC21 and 4th at ISC22; advised Not-Slow-Slug to 2nd at ISC23.} \zh{带领\href{https://hpc.geekpie.club}{GeekPie\_HPC} SCC21 团队第2名，ISC22 团队第4名，指导 Not-Slow-Slug 团队 ISC23 团队第2名。}
+      \item \en{Mentored Kiki Zhang and Zhen Cao toward Ph.D. study.}\zh{指导 Kiki Zhang, Zhen Cao 成为博士生。}
 \end{itemize}
 
 \end{document}
