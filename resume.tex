@@ -67,91 +67,44 @@
       \item \small{ \en{Make universal migration based on WebAssembly and PTX}
       \zh{设计一种基于Wasm和PTX的通用迁移方法。}}\includegraphics[width=\linewidth/50]{mvvm.png}
       \item \small{ \en{Make cross kernel-userspace eBPF observation for distributed system}
-      \zh{设计一种基于用户态内核态eBPF协同工作的L布式系统。}}\includegraphics[width=\linewidth/50]{ebpf.png}
+      \zh{设计一种基于用户态内核态eBPF协同工作的分布式系统。}}\includegraphics[width=\linewidth/50]{ebpf.png}
       \item \small{ \en{Contributed to vLLM/SGLang for high-throughput serving, implemented custom CUDA CXL kernels for attention mechanisms, optimized KV cache management and continuous batching strategies for improved GPU utilization.} \zh{参与了 vLLM/SGLang 的开发以实现高吞吐量推理服务，实现了基于 CXL 的自定义 CUDA attention 内核，并优化了 KV cache 管理及连续批处理策略以提升整体性能。}}\includegraphics[width=\linewidth/50]{sglang.png}
-
 \end{itemize}
 
 \section{\en{Selected Publications}\zh{主要论文}}
-\href{https://arxiv.org/pdf/2604.17861}{\textbf{"GPUOS: A GPU Operating System Primitive for Transparent Operation Fusion"} Preprint} \textbf{Yiwei Yang}, Xiangyu Gao, Yuan Zhou, Yuhang Gan, Yusheng Zheng, Andi Quinn.
-
-\href{https://arxiv.org/pdf/2604.01620}{\textbf{"DAXFS: A Lock-Free Shared Filesystem for CXL Disaggregated Memory"} Preprint} Cong Wang, \textbf{Yiwei Yang}, Yusheng Zheng.
+\href{https://asplos.dev/pdf/slugarch.pdf}{\textbf{"SlugArch: A Boundary Replay Contract for Heterogeneous CXL Systems "} Preprint} \textbf{Yiwei Yang}, Andi Quinn.
 
 \href{https://arxiv.org/pdf/2604.02442}{\textbf{"WIO: Upload-Enabled Computational Storage on CXL SSDs"} Preprint} \textbf{Yiwei Yang}, Yanpeng Hu, Yusheng Zheng, Estabon Ramos, Jianchang Su, Andi Quinn, Wei Zhang.
 
-\href{https://arxiv.org/pdf/2512.12615}{\textbf{"gpu\_ext: Extensible OS Policies for GPUs via eBPF"} Preprint} Yusheng Zheng, Tong Yu, \textbf{Yiwei Yang}, Minghui Jiang, Xiangyu Gao, Jianchang Su, Yanpeng Hu, Wenan Mao, Wei Zhang, Dan Williams, Andi Quinn.
-
-\href{https://arxiv.org/pdf/2508.15980}{\textbf{"CXLAimPod: CXL Memory is all you need in AI era"} Preprint} \textbf{Yiwei Yang}, Yusheng Zheng, Yiqi Chen, Zheng Liang, Kexin Chu, Zhe Zhou, Andi Quinn, Wei Zhang.
-
 \href{https://asplos.dev/pdf/cxlmemuring.pdf}{\textbf{"CXLMemUring: Revolutionizing Memory Access Through Compiler-Driven Heterogeneous Execution"} Preprint} \textbf{Yiwei Yang}, Yusheng Zheng, Yuyi Li, Jianchang Su, Wei Zhang, Andi Quinn.
+
+\href{https://arxiv.org/pdf/2410.15894}{\textbf{"MVVM: Heterogeneous Checkpoint/Restore with Host-Specialized AOT Execution"} Preprint} \textbf{Yiwei Yang}, Aibo Hu, Yusheng Zheng, Brian Zhao, Xinqi Zhang, Andi Quinn.
+
+\href{https://asplos.dev/pdf/TernIP.pdf}{\textbf{"TernIP: Scaling Ternary Large Language Models"} Preprint} Ethan Sifferman, Eddy Abban, \textbf{Yiwei Yang}, Dustin Richmond.
+
+\href{https://arxiv.org/pdf/2606.23521}{\textbf{"Concordia: JIT-Compiled Persistent-Kernel Checkpointing for Fault-Tolerant LLM Inference"} Preprint} Yuhang Gan, \textbf{Yiwei Yang}, Yuyi Li, Xiangyu Gao, Yichen Wang, Rain Jiang, Xiaoning Ding, Andi Quinn, Chen Qian.
+
+\href{https://arxiv.org/pdf/2512.12615}{\textbf{"Safe and Programmable OS-Level GPU Resource Management with eBPF"} ASPLOS27} Yusheng Zheng, Tong Yu, \textbf{Yiwei Yang}, Minghui Jiang, Xiangyu Gao, Jianchang Su, Yanpeng Hu, Wenan Mao, Wei Zhang, Dan Williams, Andi Quinn.
+
+\href{https://asplos.dev/pdf/OCEAN.pdf}{\textbf{"OCEAN: Open-source CXL Emulation at Hyperscale Architecture and Networking"} SC26} \textbf{Yiwei Yang}, Mujahid Al Rafi, Kenza Bouasker, Zhen Peng, Xi Wang, Jesun Sahariar Firoz, Sayan Ghosh, Daniel Wong, Dong Li, Hyeran Jeon, Kevin Barker, Nathan Tallent, Andres Marquez and Luanzheng Guo.
 
 \href{https://arxiv.org/pdf/2506.15993}{\textbf{"hetGPU: Pushing pooling into heterogeneous GPU Domain"} HCDS26} \textbf{Yiwei Yang}, Yusheng Zheng, Tong Yu, Andi Quinn.
 
 \href{https://arxiv.org/pdf/2303.06153}{\textbf{"CXLMemSim: Practical Performance Simulation and Characterization of CXL 3.0 Memory Systems"} HPDC26} \textbf{Yiwei Yang}, Pooneh Safayenikoo, Jiacheng Ma, Tanvir Ahmed Khan, Andi Quinn.
 
-\href{https://arxiv.org/pdf/2410.15894}{\textbf{"MVVM: Deploy Your AI Agents-Securely, Efficiently, Everywhere"} Preprint} \textbf{Yiwei Yang}, Aibo Hu, Yusheng Zheng, Brian Zhao, Xinqi Zhang, Andi Quinn.
-
-\href{https://dl.acm.org/doi/pdf/10.1145/3748355.3748371}{\textbf{"ChainIO: Bridging Disk and Network Domains with eBPF"} eBPF25} Zheng Cao, Xuhang He, Yanpeng Hu, Yusheng Zheng, \textbf{Yiwei Yang}, Jianchang Su, Wei Zhang, Andi Quinn.
-
 \href{https://www.usenix.org/system/files/osdi25-zheng-yusheng.pdf}{\textbf{"Extending Applications Safely and Efficiently"} OSDI25} Yusheng Zheng, Tong Yu, \textbf{Yiwei Yang}, Yanpeng Hu, Xiaozheng Lai, Dan Williams, Andi Quinn.
 
-\href{https://dl.acm.org/doi/pdf/10.1145/3723851.3726985}{\textbf{"wBPF: Efficient Edge-Case Observability for CXL Pooling systems via eBPF"} HCDS25} Yusheng Zheng, Yu Tong, \textbf{Yiwei Yang}, Andi Quinn.
-
 \href{https://arxiv.org/pdf/2312.05531}{\textbf{"Kgent: Kernel Extensions Large Language Model Agent"} eBPF24} Yusheng Zheng, \textbf{Yiwei Yang}, Maolin Chen, Andi Quinn.
-
-\href{https://arxiv.org/pdf/2103.07633}{\textbf{"Attack as Defense: Characterizing Adversarial Examples using Robustness"} ISSTA21} Zhe Zhao, Guangke Chen, Jingyi Wang, \textbf{Yiwei Yang}, Fu Song, Jun Sun.
-
-% \href{https://arxiv.org/pdf/2312.05531}{\textbf{"KEN: Kernel Extensions using Natural Language"} eBPF24} Yusheng Zheng, \textbf{Yiwei Yang}, Maolin Chen, Andi Quinn.
-
-
-% \href{https://arxiv.org/pdf/2103.07633}{\textbf{"Attack as Defense: Characterizing Adversarial Examples using Robustness."} ISSTA21} Zhao, Zhe, Guangke Chen, Jingyi Wang, \textbf{Yiwei Yang}, Fu Song, and Jun Sun. 
-      
-% \en{\datedsubsection{\textbf{\href{http://mir.cs.illinois.edu/marinov/}{Darko Marinov's Lab}, \href{https://illinois.edu}{University of Illinois at Urbana-Champaign}}}{07/2021 -- 10/2021}}
-% \zh{\datedsubsection{\textbf{\href{https://illinois.edu}{伊利诺伊大学厄巴纳-香槟分校}\href{http://mir.cs.illinois.edu/marinov/}{Darko Marinov组}}}{2021/07 -- 2021/10}}
-% \en{\role{Research Experience for Undergraduate}{Remote Program}}
-% \zh{\role{本科生科研}{暑研项目}}
-% \begin{itemize}
-%       \item \en{Investigating \href{https://vickiegpt.cn/wordpress/2022/08/09/final-report-of-program-analysis/}{Order dependent Flaky Tests} by Dynamic Taint Analysis and fix the underlying concurrent bugs.}
-%             \zh{使用动态污点分析在Flaky数据集上进行\href{https://vickiegpt.cn/wordpress/2022/08/09/final-report-of-program-analysis/}{数据依赖变量检测}，并修复java写的并行系统中的并发bug。}
-% \end{itemize}
-
-% \en{\datedsubsection{\textbf{\href{http://s3l.shanghaitech.edu.cn/}{System} \href{https://toast-lab.gitee.io/}{Lab}, ShanghaiTech University}}{07/2019 -- 06/2020}}
-% \zh{\datedsubsection{\textbf{\href{http://s3l.shanghaitech.edu.cn/}{上海科技大学系统}\href{https://toast-lab.gitee.io/}{实验室}}}{2019/07 -- 2021/06}}
-% \en{\role{Undergraduate Research}{Intern}}
-% \zh{\role{本科生科研}{实习}}
-% \begin{itemize}
-%       \item \small{ \en{A2D uses the cost of attacking an input for robustness evaluation and identifies those less robust examples as adversarial since less robust examples are easier to attack.}
-%       \zh{A2D使用攻击输入的成本来进行鲁棒性评估，并将那些鲁棒性较差的label diff rate这一指标guide生成对抗样本。}}\\
-%       Zhao, Zhe, Guangke Chen, Jingyi Wang, \textbf{Yiwei Yang}, Fu Song, and Jun Sun. \textbf{"Attack as Defense: Characterizing Adversarial Examples using Robustness."} ISSTA21  .
-%       \item \en{Researching \href{https://github.com/LEAFERx/movable}{MOVE language} in Diem currency source code to protect against Arithmetic Overflow, Timestamp Difference.}
-%             \zh{研究Diem源码中的\href{https://github.com/LEAFERx/movable}{MOVE language}，提高抵御时间戳攻击、整数溢出等的安全性。}
-%       \item \en{Understanding the \href{https://github.com/vickiegpt/pmemable}{real access mechanism} of Memory Mode Optane Memory and XPBuffer by reverse-engineering methods.}
-%             \zh{通过逆向工程的相关手段去理解在memory mode 下傲腾内存以及XPBuffer的\href{https://github.com/vickiegpt/pmemable}{内存置换算法逻辑}。}
-% \end{itemize}
-
-
-% \section{\en{Selected Portfolios}\zh{项目}}
-% \datedsubsection{\href{https://github.com/Sluglab/tva}{\textbf{TVA\tiny{https://github.com/Sluglab/TVA}}}}{\tiny{\en{Exploiting Control-flow Enforcement Technology for Sound and Precise Static Binary Disassembly}\zh{利用控制流执行（CET）技术进行精确静态二进制反汇编，用于 eBPF uprobe 的实现}}}
-
-% \datedsubsection{\href{https://github.com/eunomia-bpf/bpftime/}{\textbf{bpftime\tiny{https://github.com/eunomia-bpf/bpftime/}}}}{\tiny{\en{Make cross boundary observation for the kernel}\zh{提供跨内核态用户态观测机制的工具}}}
-
-% \datedsubsection{\href{https://github.com/eunomia-bpf/bpftime-super/}{\textbf{bpftime-super\tiny{https://github.com/eunomia-bpf/bpftime-super/}}}}{\tiny{\en{Make eBPF for GPU}\zh{为GPU设计的eBPF}}}
-
-% \datedsubsection{\href{https://github.com/Multi-V-VM/MVVM}{\textbf{MVVM\tiny{https://github.com/Multi-V-VM/MVVM}}}}{\tiny{\en{An LLM agent debugging playground}\zh{一个 LLM agent 调试的 playground，实现了 Wasm 和 WASI 的ckpt restore，for LLM agent的debugging}}}
-
-% \datedsubsection{\href{https://github.com/vickiegpt/hetGPU}{\textbf{hetGPU\tiny{https://github.com/vickiegpt/hetGPU}}}}{\tiny{\en{Live Migration middleware for Heterogeneous GPU}\zh{为了 HetGPU Live Migration 设计的中间层，实现了ptx for intel gpu以及 ptx 的 ckpt restore}}}
-
-% \datedsubsection{\href{https://github.com/vickiegpt/rustc-codegen-everything-gpu}{\textbf{rustc-codegen-everything-gpu\tiny{https://github.com/vickiegpt/rustc-codegen-everything-gpu}}}}{\tiny{\en{Rust GPU backend for everything}\zh{Rust spirv， webgpu，amdrocm，nvptx后端，为了实现GPU live migration}}}
 
 \section{\en{Skills}\zh{技能}}
 \begin{itemize}[parsep=0.25ex]
       \item \en{\textbf{Programming Languages}:
                   not limited to any specific language,
-                  and experienced in Python/C++/Rust,
-                  comfortable with Golang/C/Java/Scala/TypeScript (in random order).}
+                  and experienced in Verilog/C++/Rust,
+                  comfortable with Golang/C/Java/TypeScript (in random order).}
             \zh{\textbf{编程语言}:
-                  不局限于特定编程语言，且尤其熟悉 Python/C++/Rust 等，
-                  了解 Golang/C/Java/Scala/TypeScript 等。}
+                  不局限于特定编程语言，且尤其熟悉 Verilog/C++/Rust 等，
+                  了解 Golang/C/Java/TypeScript 等。}
 
       \item \en{\textbf{System}:
                   Specialist in Compiler \& Performance Analysis, familiar with \texttt{LLVM}, \texttt{MLIR}, \texttt{Gem5}, \texttt{WASM}, \texttt{gdb}, \texttt{eBPF}, \texttt{ptx}, \texttt{qemu}, \texttt{chisel}, \texttt{Linux mm \& observability subsystem}.}
@@ -170,10 +123,6 @@
             \zh{兴趣：高性能计算、体系结构、安全、JIT、CXL、LLM4Sys4LLM等。}
       \item \en{Lead \href{https://hpc.geekpie.club}{GeekPie\_HPC} \textit{Ranked 2}, SC-SCC21. \textit{Ranked 4}, ISC22. Advise Not-Slow-Slug \textit{Ranked 2}, ISC23.} \zh{带领\href{https://hpc.geekpie.club}{GeekPie\_HPC} SCC21 团队第2名，ISC22 团队第4名，指导 Not-Slow-Slug 团队 ISC23 团队第2名。}
       \item \en{Advise Kiki Zhang, Zhen Cao to be Ph.D. students.}\zh{指导 Kiki Zhang, Zhen Cao 成为博士生。}
-      % \item \en{As a member of \href{https://github.com/0x238e/Vchain}{0x238e} \textit{Best award}, Bitrun, Hang Zhou, 2019.}
-      %       \zh{带领\href{https://github.com/0x238e/Vchain}{0x238e} Bitrun Hackathon 比赛最佳奖}
-      \item \en{Google Summer of Code Mentor for BPFTime}
-            \zh{谷歌编程之夏 BPFTime 指导}
 \end{itemize}
 
 \end{document}
